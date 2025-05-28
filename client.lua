@@ -1,8 +1,5 @@
-ForceRadioTrackListPosition('OB_RADIO', 'obsongs_radiotrack01', GetNetworkTimeAccurate())
-
-Citizen.CreateThread(function()
-    AddTextEntryByHash('OB_RADIO', 'Sleep Token FM')
-end)
+AddTextEntry('OB_RADIO', 'Sleep Token FM')
+ForceRadioTrackListPosition('OB_RADIO', 'christmas_radiotrack', GetNetworkTimeAccurate())
 
 for k, v in pairs(SongInfo) do
     AddTextEntry(string.format('%s%s', k, 'S'), v[1])
