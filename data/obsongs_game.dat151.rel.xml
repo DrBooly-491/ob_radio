@@ -66,12 +66,12 @@
       </Tracks>
     </Item>
     <Item type="RadioStationSettings" ntOffset="0">
-      <Name>ob_test_radio_station</Name>
+      <Name>ob_radio_station</Name>
       <Unk00 value="0xAA9009AA"/>
       <WheelPosition value="30000"/>
       <Unk02 value="0"/>
       <MusicGenre value="1"/>
-      <RadioName>RADIO_OB</RadioName>
+      <RadioName>OB_RADIO</RadioName>
       <Unk04 value="0"/>
       <TrackList>
         <Item>obsongs_radiotrack01</Item>
@@ -80,7 +80,7 @@
     <Item type="RadioStationList" ntOffset="0">
       <Name>radio_stations_dlc</Name>
       <Stations>
-        <Item>ob_test_radio_station</Item>
+        <Item>ob_radio_station</Item>
       </Stations>
     </Item>
   </Items>
