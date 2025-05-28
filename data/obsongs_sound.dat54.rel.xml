@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Dat54>
+  <Version value="6353779"/>
+  <ContainerPaths>
+    <Item>songdirectory\looktowindward</Item>
+  </ContainerPaths>
+  <Items>
+    <Item type="StreamingSound">
+      <Name>looktowindward_song</Name>
+      <Header>
+        <Flags value="0x0180C001"/>
+        <Flags2 value="0xAA90AAAA"/>
+        <DopplerFactor value="0"/>
+        <Category>hash_45EB536F</Category>
+        <Unk20 value="0"/>
+        <Unk21 value="1"/>
+      </Header>
+      <Duration value="466464"/>
+      <ChildSounds>
+        <Item>looktowindward_left_simple</Item>
+        <Item>looktowindward_right_simple</Item>
+      </ChildSounds>
+    </Item>
+    <Item type="SimpleSound">
+      <Name>looktowindward_left_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="307"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/looktowindward</ContainerName>
+      <FileName>looktowindward_left</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+    <Item type="SimpleSound">
+      <Name>looktowindward_right_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="53"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/looktowindward</ContainerName>
+      <FileName>looktowindward_right</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+  </Items>
+</Dat54>
