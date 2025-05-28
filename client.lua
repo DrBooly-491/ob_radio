@@ -1,6 +1,9 @@
 AddTextEntry('OB_RADIO', 'Sleep Token FM')
 ForceRadioTrackListPosition('OB_RADIO', 'ob_radio_station', GetNetworkTimeAccurate())
 
+AddTextEntry('OB_RADIO_2', 'Venjent FM')
+ForceRadioTrackListPosition('OB_RADIO_2', 'ob_radio_station_2', GetNetworkTimeAccurate())
+
 for k, v in pairs(SongInfo) do
     AddTextEntry(string.format('%s%s', k, 'S'), v[1])
     AddTextEntry(string.format('%s%s', k, 'A'), v[2])

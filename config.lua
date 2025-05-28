@@ -9,4 +9,5 @@ SongInfo = {
     ['6007'] = { 'Damocles', 'Sleep Token' },
     ['6008'] = { 'Gethsemane', 'Sleep Token' },
     ['6009'] = { 'Infinite Baths', 'Sleep Token' },
+    ['6010'] = { 'Heaven', 'Venjent, Oktae' },
 }

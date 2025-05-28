@@ -12,6 +12,7 @@
     <Item>songdirectory\damocles</Item>
     <Item>songdirectory\gethsemane</Item>
     <Item>songdirectory\infinitebaths</Item>
+    <Item>songdirectory\heaven</Item>
   </ContainerPaths>
   <Items>
     <Item type="StreamingSound">
@@ -392,6 +393,44 @@
       </Header>
       <ContainerName>songdirectory/infinitebaths</ContainerName>
       <FileName>infinitebaths_right</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+      <Item type="StreamingSound">
+      <Name>heaven_song</Name>
+      <Header>
+        <Flags value="0x0180C001"/>
+        <Flags2 value="0xAA90AAAA"/>
+        <DopplerFactor value="0"/>
+        <Category>hash_45EB536F</Category>
+        <Unk20 value="0"/>
+        <Unk21 value="1"/>
+      </Header>
+      <Duration value="208318"/>
+      <ChildSounds>
+        <Item>heaven_left_simple</Item>
+        <Item>heaven_right_simple</Item>
+      </ChildSounds>
+    </Item>
+    <Item type="SimpleSound">
+      <Name>heaven_left_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="307"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/heaven</ContainerName>
+      <FileName>heaven_left</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+    <Item type="SimpleSound">
+      <Name>heaven_right_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="53"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/heaven</ContainerName>
+      <FileName>heaven_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
   </Items>
