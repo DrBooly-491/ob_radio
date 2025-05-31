@@ -5,10 +5,11 @@ A script that gives you the ability to add your own radio station / songs to Fiv
 
 ## Dependencies:
 
-### There isn't really any dependencies for this script to work however, I'd reccomend you download 
+### There isn't really any dependencies for this script to work however, I'd reccomend you download these tools if you want to edit songs / hud elements
 * Open IV - https://openiv.com/
 * CodeWalker30_dev48 - https://discord.com/invite/CR3vmYX
 * Joe's Native Audio Tool - https://github.com/JoeSzymkowiczFiveM/native-audio-tool
+* JPEXS - https://github.com/jindrapetrik/jpexs-decompiler 
 
 ## How to Install
 
@@ -23,6 +24,10 @@ Make sure your standalone folder is started in your server.cfg if not make sure 
 ### Step 3: 
 
 Start your server and enjoy
+
+# Showcase
+
+
 
 ## If you need help editing music or radio stations / hud elements feel free to join my discord 
 https://discord.gg/53x5UFazNg
