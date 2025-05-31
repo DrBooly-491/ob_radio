@@ -31,6 +31,8 @@ Start your server and enjoy
 
 https://github.com/user-attachments/assets/364f93cf-ec5b-4d45-a992-4a40c8518ba2
 
+Also Thanks https://github.com/ChatDisabled for helping me with a lot of this
+
 
 
 ## If you need help editing music or radio stations / hud elements feel free to join my discord 
