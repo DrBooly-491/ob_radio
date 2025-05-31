@@ -1,7 +1,7 @@
 ![ob_radio](https://github.com/user-attachments/assets/0f7175b3-08cc-450f-926f-88c628cab076)
 
 ## ob_radio
-A script that gives you the ability to add your own radio station / songs to FiveM
+A script that gives you the ability to add your own radio stations with customs songs to FiveM
 
 ## Dependencies:
 
@@ -26,6 +26,10 @@ Make sure your standalone folder is started in your server.cfg if not make sure 
 Start your server and enjoy
 
 # Showcase
+
+
+
+https://github.com/user-attachments/assets/364f93cf-ec5b-4d45-a992-4a40c8518ba2
 
 
 
