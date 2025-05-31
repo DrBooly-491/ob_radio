@@ -1,7 +1,7 @@
 AddTextEntry('OB_RADIO', 'Sleep Token FM')
 ForceRadioTrackListPosition('OB_RADIO', 'ob_radio_station', GetNetworkTimeAccurate())
 
-AddTextEntry('OB_RADIO_2', 'Venjent FM')
+AddTextEntry('OB_RADIO_2', 'J7 Radio 67.7 FM')
 ForceRadioTrackListPosition('OB_RADIO_2', 'ob_radio_station_2', GetNetworkTimeAccurate())
 
 for k, v in pairs(SongInfo) do

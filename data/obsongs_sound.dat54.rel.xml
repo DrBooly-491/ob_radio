@@ -12,7 +12,8 @@
     <Item>songdirectory\damocles</Item>
     <Item>songdirectory\gethsemane</Item>
     <Item>songdirectory\infinitebaths</Item>
-    <Item>songdirectory\heaven</Item>
+    <Item>songdirectory\badhabits</Item>
+    <Item>songdirectory\emptybed</Item>
   </ContainerPaths>
   <Items>
     <Item type="StreamingSound">
@@ -396,7 +397,7 @@
       <WaveSlotNum value="0"/>
     </Item>
       <Item type="StreamingSound">
-      <Name>heaven_song</Name>
+      <Name>badhabits_song</Name>
       <Header>
         <Flags value="0x0180C001"/>
         <Flags2 value="0xAA90AAAA"/>
@@ -405,32 +406,70 @@
         <Unk20 value="0"/>
         <Unk21 value="1"/>
       </Header>
-      <Duration value="208318"/>
+      <Duration value="187008"/>
       <ChildSounds>
-        <Item>heaven_left_simple</Item>
-        <Item>heaven_right_simple</Item>
+        <Item>badhabits_left_simple</Item>
+        <Item>badhabits_right_simple</Item>
       </ChildSounds>
     </Item>
     <Item type="SimpleSound">
-      <Name>heaven_left_simple</Name>
+      <Name>badhabits_left_simple</Name>
       <Header>
         <Flags value="0x00800040"/>
         <Pan value="307"/>
         <Unk20 value="0"/>
       </Header>
-      <ContainerName>songdirectory/heaven</ContainerName>
-      <FileName>heaven_left</FileName>
+      <ContainerName>songdirectory/badhabits</ContainerName>
+      <FileName>badhabits_left</FileName>
       <WaveSlotNum value="0"/>
     </Item>
     <Item type="SimpleSound">
-      <Name>heaven_right_simple</Name>
+      <Name>badhabits_right_simple</Name>
       <Header>
         <Flags value="0x00800040"/>
         <Pan value="53"/>
         <Unk20 value="0"/>
       </Header>
-      <ContainerName>songdirectory/heaven</ContainerName>
-      <FileName>heaven_right</FileName>
+      <ContainerName>songdirectory/badhabits</ContainerName>
+      <FileName>badhabits_right</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+  <Item type="StreamingSound">
+      <Name>emptybed_song</Name>
+      <Header>
+        <Flags value="0x0180C001"/>
+        <Flags2 value="0xAA90AAAA"/>
+        <DopplerFactor value="0"/>
+        <Category>hash_45EB536F</Category>
+        <Unk20 value="0"/>
+        <Unk21 value="1"/>
+      </Header>
+      <Duration value="219520"/>
+      <ChildSounds>
+        <Item>emptybed_left_simple</Item>
+        <Item>emptybed_right_simple</Item>
+      </ChildSounds>
+    </Item>
+    <Item type="SimpleSound">
+      <Name>emptybed_left_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="307"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/emptybed</ContainerName>
+      <FileName>emptybed_left</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+    <Item type="SimpleSound">
+      <Name>emptybed_right_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="53"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/emptybed</ContainerName>
+      <FileName>emptybed_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
   </Items>

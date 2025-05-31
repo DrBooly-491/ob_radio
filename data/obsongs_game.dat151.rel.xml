@@ -87,7 +87,12 @@
     <Unk16 value="0"/>
     <Tracks>
       <Item>
-      <Context/><SoundRef>heaven_song</SoundRef>
+      <Context/>
+      <SoundRef>badhabits_song</SoundRef>
+      </Item>
+      <Item>
+        <Context/>
+        <SoundRef>emptybed_song</SoundRef>
       </Item>
     </Tracks>
   </Item>
