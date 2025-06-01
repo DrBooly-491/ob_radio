@@ -15,7 +15,9 @@
     <Item>songdirectory\badhabits</Item>
     <Item>songdirectory\emptybed</Item>
   </ContainerPaths>
+
   <Items>
+    <!-- Sound configurations for each song-->
     <Item type="StreamingSound">
       <Name>looktowindward_song</Name>
       <Header>
@@ -32,6 +34,7 @@
         <Item>looktowindward_right_simple</Item>
       </ChildSounds>
     </Item>
+
     <Item type="SimpleSound">
       <Name>looktowindward_left_simple</Name>
       <Header>
@@ -43,6 +46,7 @@
       <FileName>looktowindward_left</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
     <Item type="SimpleSound">
       <Name>looktowindward_right_simple</Name>
       <Header>
@@ -54,6 +58,7 @@
       <FileName>looktowindward_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
     <Item type="StreamingSound">
       <Name>emergence_song</Name>
       <Header>
@@ -70,6 +75,7 @@
         <Item>emergence_right_simple</Item>
       </ChildSounds>
     </Item>
+
     <Item type="SimpleSound">
       <Name>emergence_left_simple</Name>
       <Header>
@@ -81,6 +87,7 @@
       <FileName>emergence_left</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
     <Item type="SimpleSound">
       <Name>emergence_right_simple</Name>
       <Header>
@@ -92,6 +99,7 @@
       <FileName>emergence_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
         <Item type="StreamingSound">
       <Name>pastself_song</Name>
       <Header>
@@ -108,6 +116,7 @@
         <Item>pastself_right_simple</Item>
       </ChildSounds>
     </Item>
+
     <Item type="SimpleSound">
       <Name>pastself_left_simple</Name>
       <Header>
@@ -119,6 +128,7 @@
       <FileName>pastself_left</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
     <Item type="SimpleSound">
       <Name>pastself_right_simple</Name>
       <Header>
@@ -130,6 +140,7 @@
       <FileName>pastself_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
         <Item type="StreamingSound">
       <Name>dangerous_song</Name>
       <Header>
@@ -146,6 +157,7 @@
         <Item>dangerous_right_simple</Item>
       </ChildSounds>
     </Item>
+
     <Item type="SimpleSound">
       <Name>dangerous_left_simple</Name>
       <Header>
@@ -157,6 +169,7 @@
       <FileName>dangerous_left</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+    
     <Item type="SimpleSound">
       <Name>dangerous_right_simple</Name>
       <Header>
@@ -168,6 +181,7 @@
       <FileName>dangerous_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
     <Item type="StreamingSound">
       <Name>caramel_song</Name>
       <Header>
@@ -184,6 +198,7 @@
         <Item>caramel_right_simple</Item>
       </ChildSounds>
     </Item>
+
     <Item type="SimpleSound">
       <Name>caramel_left_simple</Name>
       <Header>
@@ -195,6 +210,7 @@
       <FileName>caramel_left</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
     <Item type="SimpleSound">
       <Name>caramel_right_simple</Name>
       <Header>
@@ -206,6 +222,7 @@
       <FileName>caramel_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
         <Item type="StreamingSound">
       <Name>eveninarcadia_song</Name>
       <Header>
@@ -222,6 +239,7 @@
         <Item>eveninarcadia_right_simple</Item>
       </ChildSounds>
     </Item>
+
     <Item type="SimpleSound">
       <Name>eveninarcadia_left_simple</Name>
       <Header>
@@ -233,6 +251,7 @@
       <FileName>eveninarcadia_left</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
     <Item type="SimpleSound">
       <Name>eveninarcadia_right_simple</Name>
       <Header>
@@ -244,6 +263,7 @@
       <FileName>eveninarcadia_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
         <Item type="StreamingSound">
       <Name>provider_song</Name>
       <Header>
@@ -260,6 +280,7 @@
         <Item>provider_right_simple</Item>
       </ChildSounds>
     </Item>
+
     <Item type="SimpleSound">
       <Name>provider_left_simple</Name>
       <Header>
@@ -271,6 +292,7 @@
       <FileName>provider_left</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
     <Item type="SimpleSound">
       <Name>provider_right_simple</Name>
       <Header>
@@ -282,6 +304,7 @@
       <FileName>provider_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
         <Item type="StreamingSound">
       <Name>damocles_song</Name>
       <Header>
@@ -298,6 +321,7 @@
         <Item>damocles_right_simple</Item>
       </ChildSounds>
     </Item>
+
     <Item type="SimpleSound">
       <Name>damocles_left_simple</Name>
       <Header>
@@ -309,6 +333,7 @@
       <FileName>damocles_left</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
     <Item type="SimpleSound">
       <Name>damocles_right_simple</Name>
       <Header>
@@ -320,6 +345,7 @@
       <FileName>damocles_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
         <Item type="StreamingSound">
       <Name>gethsemane_song</Name>
       <Header>
@@ -336,6 +362,7 @@
         <Item>gethsemane_right_simple</Item>
       </ChildSounds>
     </Item>
+
     <Item type="SimpleSound">
       <Name>gethsemane_left_simple</Name>
       <Header>
@@ -347,6 +374,7 @@
       <FileName>gethsemane_left</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
     <Item type="SimpleSound">
       <Name>gethsemane_right_simple</Name>
       <Header>
@@ -358,6 +386,7 @@
       <FileName>gethsemane_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
         <Item type="StreamingSound">
       <Name>infinitebaths_song</Name>
       <Header>
@@ -374,6 +403,7 @@
         <Item>infinitebaths_right_simple</Item>
       </ChildSounds>
     </Item>
+
     <Item type="SimpleSound">
       <Name>infinitebaths_left_simple</Name>
       <Header>
@@ -385,6 +415,7 @@
       <FileName>infinitebaths_left</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
     <Item type="SimpleSound">
       <Name>infinitebaths_right_simple</Name>
       <Header>
@@ -396,6 +427,7 @@
       <FileName>infinitebaths_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
       <Item type="StreamingSound">
       <Name>badhabits_song</Name>
       <Header>
@@ -412,6 +444,7 @@
         <Item>badhabits_right_simple</Item>
       </ChildSounds>
     </Item>
+
     <Item type="SimpleSound">
       <Name>badhabits_left_simple</Name>
       <Header>
@@ -423,6 +456,7 @@
       <FileName>badhabits_left</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
     <Item type="SimpleSound">
       <Name>badhabits_right_simple</Name>
       <Header>
@@ -434,6 +468,7 @@
       <FileName>badhabits_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+
   <Item type="StreamingSound">
       <Name>emptybed_song</Name>
       <Header>
@@ -450,6 +485,7 @@
         <Item>emptybed_right_simple</Item>
       </ChildSounds>
     </Item>
+
     <Item type="SimpleSound">
       <Name>emptybed_left_simple</Name>
       <Header>
@@ -461,6 +497,7 @@
       <FileName>emptybed_left</FileName>
       <WaveSlotNum value="0"/>
     </Item>
+    
     <Item type="SimpleSound">
       <Name>emptybed_right_simple</Name>
       <Header>

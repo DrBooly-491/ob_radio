@@ -2,13 +2,14 @@
 <Dat151>
   <Version value="6353782"/>
   <Items>
+    <!-- First Radio Station Track List -->
     <Item type="RadioStationTrackList" ntOffset="0">
       <Name>obsongs_radiotrack01</Name>
       <Unk00 value="0xAAAAAAA4"/>
       <TrackType value="2"/>
       <Unk01 value="0"/>
       <Unk02 value="0"/>
-      <Unk03 value="10"/>
+      <Unk03 value="10"/> <!-- Number of tracks -->
       <Unk04 value="0"/>
       <Unk05 value="0"/>
       <Unk06 value="0"/>
@@ -64,38 +65,42 @@
           <SoundRef>infinitebaths_song</SoundRef>
         </Item>
       </Tracks>
-      </Item>
-  <Item type="RadioStationTrackList" ntOffset="0">
-    <Name>obsongs_radiotrack02</Name>
-    <Unk00 value="0xAAAAAAA4"/>
-    <TrackType value="2"/>
-    <Unk01 value="0"/>
-    <Unk02 value="0"/>
-    <Unk03 value="5"/>
-    <Unk04 value="0"/>
-    <Unk05 value="0"/>
-    <Unk06 value="0"/>
-    <Unk07 value="0"/>
-    <Unk08 value="0"/>
-    <Unk09 value="0"/>
-    <Unk10 value="0"/>
-    <Unk11 value="0"/>
-    <Unk12 value="0"/>
-    <Unk13 value="0"/>
-    <Unk14 value="0"/>
-    <Unk15 value="0"/>
-    <Unk16 value="0"/>
-    <Tracks>
-      <Item>
-      <Context/>
-      <SoundRef>badhabits_song</SoundRef>
-      </Item>
-      <Item>
-        <Context/>
-        <SoundRef>emptybed_song</SoundRef>
-      </Item>
-    </Tracks>
-  </Item>
+    </Item>
+
+    <!-- Second Radio Station Track List -->
+    <Item type="RadioStationTrackList" ntOffset="0">
+      <Name>obsongs_radiotrack02</Name>
+      <Unk00 value="0xAAAAAAA4"/>
+      <TrackType value="2"/>
+      <Unk01 value="0"/>
+      <Unk02 value="0"/>
+      <Unk03 value="2"/> <!-- Number of tracks -->
+      <Unk04 value="0"/>
+      <Unk05 value="0"/>
+      <Unk06 value="0"/>
+      <Unk07 value="0"/>
+      <Unk08 value="0"/>
+      <Unk09 value="0"/>
+      <Unk10 value="0"/>
+      <Unk11 value="0"/>
+      <Unk12 value="0"/>
+      <Unk13 value="0"/>
+      <Unk14 value="0"/>
+      <Unk15 value="0"/>
+      <Unk16 value="0"/>
+      <Tracks>
+        <Item>
+          <Context/>
+          <SoundRef>badhabits_song</SoundRef>
+        </Item>
+        <Item>
+          <Context/>
+          <SoundRef>emptybed_song</SoundRef>
+        </Item>
+      </Tracks>
+    </Item>
+
+    <!-- First Radio Station Settings -->
     <Item type="RadioStationSettings" ntOffset="0">
       <Name>ob_radio_station</Name>
       <Unk00 value="0xAA9009AA"/>
@@ -108,18 +113,22 @@
         <Item>obsongs_radiotrack01</Item>
       </TrackList>
     </Item>
+
+    <!-- Second Radio Station Settings -->
     <Item type="RadioStationSettings" ntOffset="0">
-  <Name>ob_radio_station_2</Name>
-  <Unk00 value="0xAA9009AB"/>
-  <WheelPosition value="30001"/>
-  <Unk02 value="0"/>
-  <MusicGenre value="2"/>
-  <RadioName>OB_RADIO_2</RadioName>
-  <Unk04 value="0"/>
-  <TrackList>
-    <Item>obsongs_radiotrack02</Item>
-  </TrackList>
-</Item>
+      <Name>ob_radio_station_2</Name>
+      <Unk00 value="0xAA9009AB"/>
+      <WheelPosition value="30001"/>
+      <Unk02 value="0"/>
+      <MusicGenre value="2"/>
+      <RadioName>OB_RADIO_2</RadioName>
+      <Unk04 value="0"/>
+      <TrackList>
+        <Item>obsongs_radiotrack02</Item>
+      </TrackList>
+    </Item>
+
+    <!-- Radio Station List -->
     <Item type="RadioStationList" ntOffset="0">
       <Name>radio_stations_dlc</Name>
       <Stations>
