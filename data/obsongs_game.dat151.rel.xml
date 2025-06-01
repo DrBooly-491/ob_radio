@@ -97,6 +97,10 @@
           <Context/>
           <SoundRef>emptybed_song</SoundRef>
         </Item>
+        <Item>
+          <Context/>
+          <SoundRef>bigbands_song</SoundRef>
+        </Item>
       </Tracks>
     </Item>
 

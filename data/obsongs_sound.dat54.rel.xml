@@ -14,6 +14,7 @@
     <Item>songdirectory\infinitebaths</Item>
     <Item>songdirectory\badhabits</Item>
     <Item>songdirectory\emptybed</Item>
+    <Item>songdirectory\bigbands</Item>
   </ContainerPaths>
 
   <Items>
@@ -507,6 +508,47 @@
       </Header>
       <ContainerName>songdirectory/emptybed</ContainerName>
       <FileName>emptybed_right</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+      <Item type="StreamingSound">
+      <Name>bigbands_song</Name>
+      <Header>
+        <Flags value="0x0180C001"/>
+        <Flags2 value="0xAA90AAAA"/>
+        <DopplerFactor value="0"/>
+        <Category>hash_45EB536F</Category>
+        <Unk20 value="0"/>
+        <Unk21 value="1"/>
+      </Header>
+      <Duration value="144469"/>
+      <ChildSounds>
+        <Item>bigbands_left_simple</Item>
+        <Item>bigbands_right_simple</Item>
+      </ChildSounds>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>bigbands_left_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="307"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/bigbands</ContainerName>
+      <FileName>bigbands_left</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+    
+    <Item type="SimpleSound">
+      <Name>bigbands_right_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="53"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/bigbands</ContainerName>
+      <FileName>bigbands_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
   </Items>

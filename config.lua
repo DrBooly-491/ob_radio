@@ -11,4 +11,5 @@ SongInfo = {
     ['6009'] = { 'Infinite Baths', 'Sleep Token' },
     ['6010'] = { 'Bad Habits', 'KUURO' },
     ['6011'] = { 'Empty Bed', 'Saint Punk' },
+    ['6012'] = { 'Big Bands', 'Lil Cap, P Money' },
 }
