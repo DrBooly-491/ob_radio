@@ -12,4 +12,5 @@ SongInfo = {
     ['6010'] = { 'Bad Habits', 'KUURO' },
     ['6011'] = { 'Empty Bed', 'Saint Punk' },
     ['6012'] = { 'Big Bands', 'Lil Cap, P Money' },
+    ['6013'] = { 'Nightshift', 'Charlotte Plank' },
 }

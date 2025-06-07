@@ -15,6 +15,7 @@
     <Item>songdirectory\badhabits</Item>
     <Item>songdirectory\emptybed</Item>
     <Item>songdirectory\bigbands</Item>
+    <Item>songdirectory\nightshift</Item>
   </ContainerPaths>
 
   <Items>
@@ -549,6 +550,47 @@
       </Header>
       <ContainerName>songdirectory/bigbands</ContainerName>
       <FileName>bigbands_right</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+          <Item type="StreamingSound">
+      <Name>nightshift_song</Name>
+      <Header>
+        <Flags value="0x0180C001"/>
+        <Flags2 value="0xAA90AAAA"/>
+        <DopplerFactor value="0"/>
+        <Category>hash_45EB536F</Category>
+        <Unk20 value="0"/>
+        <Unk21 value="1"/>
+      </Header>
+      <Duration value="173697"/>
+      <ChildSounds>
+        <Item>nightshift_left_simple</Item>
+        <Item>nightshift_right_simple</Item>
+      </ChildSounds>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>nightshift_left_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="307"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/nightshift</ContainerName>
+      <FileName>nightshift_left</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+    
+    <Item type="SimpleSound">
+      <Name>nightshift_right_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="53"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/nightshift</ContainerName>
+      <FileName>nightshift_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
   </Items>

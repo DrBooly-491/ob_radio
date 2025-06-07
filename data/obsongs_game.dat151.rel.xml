@@ -74,7 +74,7 @@
       <TrackType value="2"/>
       <Unk01 value="0"/>
       <Unk02 value="0"/>
-      <Unk03 value="3"/> <!-- Number of tracks -->
+      <Unk03 value="4"/> <!-- Number of tracks -->
       <Unk04 value="0"/>
       <Unk05 value="0"/>
       <Unk06 value="0"/>
@@ -100,6 +100,10 @@
         <Item>
           <Context/>
           <SoundRef>bigbands_song</SoundRef>
+        </Item>
+        <Item>
+          <Context/>
+          <SoundRef>nightshift_song</SoundRef>
         </Item>
       </Tracks>
     </Item>
