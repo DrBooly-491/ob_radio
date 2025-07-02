@@ -1,57 +1,29 @@
-AddTextEntry('OB_RADIO', 'Sleep Token FM')
-ForceRadioTrackListPosition('OB_RADIO', 'obsongs_radiotrack01', GetNetworkTimeAccurate())
-
-AddTextEntry('OB_RADIO_2', 'J7 Radio 67.7 FM')
-ForceRadioTrackListPosition('OB_RADIO_2', 'obsongs_radiotrack02', GetNetworkTimeAccurate())
-
-for k, v in pairs(SongInfo) do
-    AddTextEntry(string.format('%s%s', k, 'S'), v[1])
-    AddTextEntry(string.format('%s%s', k, 'A'), v[2])
+-- Register radio stations
+for _, station in ipairs(CustomStations) do
+    AddTextEntry(station.id, station.label)
+    ForceRadioTrackListPosition(station.id, station.trackList, GetNetworkTimeAccurate())
 end
 
-local SetRadioStationIsVisible = SetRadioStationIsVisible
-local radioDisabled = false
+-- Register song titles and artists
+for k, v in pairs(SongInfo) do
+    AddTextEntry(k .. 'S', v[1]) -- Song title
+    AddTextEntry(k .. 'A', v[2]) -- Artist
+end
 
+-- Hide default radio stations
 local function DisableRadioStations()
-    local radioStations = {
-        "RADIO_36_AUDIOPLAYER", -- Media Player
-        "RADIO_37_MOTOMAMI", -- MOTOMAMI Los Santos
-        "RADIO_35_DLC_HEI4_MLR", -- The Music Locker
-        "RADIO_12_REGGAE", -- Blue Ark
-        "RADIO_13_JAZZ", -- Worldwide FM
-        "RADIO_14_DANCE_02", -- FlyLo FM
-        "RADIO_15_MOTOWN", -- The Lowdown 91.1
-        "RADIO_20_THELAB", -- The Lab
-        "RADIO_16_SILVERLAKE", -- Radio Mirror Park
-        "RADIO_34_DLC_HEI4_KULT", -- Kult FM
-        "RADIO_17_FUNK", -- Space 103.2
-        "RADIO_18_90S_ROCK", -- Vinewood Boulevard Radio
-        "RADIO_21_DLC_XM17", -- Blonded Los Santos 97.8 FM
-        "RADIO_22_DLC_BATTLE_MIX1_RADIO", -- Los Santos Underground Radio
-        "RADIO_23_DLC_XM19_RADIO", -- iFruit Radio
-        "RADIO_01_CLASS_ROCK", -- Los Santos Rock Radio
-        "RADIO_02_POP", -- Non-Stop-Pop FM
-        "RADIO_03_HIPHOP_NEW", -- Radio Los Santos
-        "RADIO_04_PUNK", -- Channel X
-        "RADIO_05_TALK_01", -- West Coast Talk Radio
-        "RADIO_06_COUNTRY", -- Rebel Radio
-        "RADIO_07_DANCE_01", -- Soulwax FM 
-        "RADIO_08_MEXICAN", -- East Los FM
-        "RADIO_09_HIPHOP_OLD", -- West Coast Classics
-        "RADIO_11_TALK_02", -- Blaine County Radio
-        "RADIO_27_DLC_PRHEI4", -- Still Slipping Los Santos
-        "RADIO_19_USER", -- Self Radio
-        "HIDDEN_RADIO_MPSUM2_NEWS", -- Weazel News
-    }
-
-    for i = 1, #radioStations do
-        local radioStation = radioStations[i]
+    for _, radioStation in ipairs(DisabledStations) do
         SetRadioStationIsVisible(radioStation, false)
     end
 end
 
+-- Only run the hiding logic once
+local radioDisabled = false
+
 CreateThread(function()
-    if radioDisabled then return end
+    if not radioDisabled then
         radioDisabled = true
         DisableRadioStations()
+        print("[Radio] Default GTA V stations hidden.")
+    end
 end)
