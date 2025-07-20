@@ -9,7 +9,7 @@
       <TrackType value="2"/>
       <Unk01 value="0"/>
       <Unk02 value="0"/>
-      <Unk03 value="10"/> <!-- Number of tracks -->
+      <Unk03 value="1"/> <!-- Number of tracks -->
       <Unk04 value="0"/>
       <Unk05 value="0"/>
       <Unk06 value="0"/>
@@ -27,42 +27,6 @@
         <Item>
           <Context/>
           <SoundRef>looktowindward_song</SoundRef>
-        </Item>
-        <Item>
-          <Context/>
-          <SoundRef>emergence_song</SoundRef>
-        </Item>
-        <Item>
-          <Context/>
-          <SoundRef>pastself_song</SoundRef>
-        </Item>
-        <Item>
-          <Context/>
-          <SoundRef>dangerous_song</SoundRef>
-        </Item>
-        <Item>
-          <Context/>
-          <SoundRef>caramel_song</SoundRef>
-        </Item>
-        <Item>
-          <Context/>
-          <SoundRef>eveninarcadia_song</SoundRef>
-        </Item>
-        <Item>
-          <Context/>
-          <SoundRef>provider_song</SoundRef>
-        </Item>
-        <Item>
-          <Context/>
-          <SoundRef>damocles_song</SoundRef>
-        </Item>
-        <Item>
-          <Context/>
-          <SoundRef>gethsemane_song</SoundRef>
-        </Item>
-        <Item>
-          <Context/>
-          <SoundRef>infinitebaths_song</SoundRef>
         </Item>
       </Tracks>
     </Item>
@@ -92,18 +56,6 @@
         <Item>
           <Context/>
           <SoundRef>badhabits_song</SoundRef>
-        </Item>
-        <Item>
-          <Context/>
-          <SoundRef>emptybed_song</SoundRef>
-        </Item>
-        <Item>
-          <Context/>
-          <SoundRef>bigbands_song</SoundRef>
-        </Item>
-        <Item>
-          <Context/>
-          <SoundRef>nightshift_song</SoundRef>
         </Item>
       </Tracks>
     </Item>
