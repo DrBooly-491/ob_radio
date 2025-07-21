@@ -38,7 +38,7 @@
       <TrackType value="2"/>
       <Unk01 value="0"/>
       <Unk02 value="0"/>
-      <Unk03 value="4"/> <!-- Number of tracks -->
+      <Unk03 value="1"/> <!-- Number of tracks -->
       <Unk04 value="0"/>
       <Unk05 value="0"/>
       <Unk06 value="0"/>
