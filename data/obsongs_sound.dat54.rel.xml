@@ -4,6 +4,7 @@
   <ContainerPaths>
     <Item>songdirectory\looktowindward</Item>
     <Item>songdirectory\badhabits</Item>
+    <Item>songdirectory\everythingismusic</Item>
   </ContainerPaths>
 
   <Items>
@@ -87,6 +88,47 @@
       </Header>
       <ContainerName>songdirectory/badhabits</ContainerName>
       <FileName>badhabits_right</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+          <Item type="StreamingSound">
+      <Name>everythingismusic_song</Name>
+      <Header>
+        <Flags value="0x0180C001"/>
+        <Flags2 value="0xAA90AAAA"/>
+        <DopplerFactor value="0"/>
+        <Category>hash_45EB536F</Category>
+        <Unk20 value="0"/>
+        <Unk21 value="1"/>
+      </Header>
+      <Duration value="306167"/>
+      <ChildSounds>
+        <Item>everythingismusic_left_simple</Item>
+        <Item>everythingismusic_right_simple</Item>
+      </ChildSounds>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>everythingismusic_left_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="307"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/everythingismusic</ContainerName>
+      <FileName>everythingismusic_left</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>everythingismusic_right_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="53"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/everythingismusic</ContainerName>
+      <FileName>everythingismusic_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
   </Items>

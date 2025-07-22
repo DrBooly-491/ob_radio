@@ -1,6 +1,7 @@
 SongInfo = {
     ['6000'] = { 'Look To Windward', 'Sleep Token' },
     ['6010'] = { 'Bad Habits', 'KUURO' },
+    ['6001'] = { 'Everything is Music', 'Venjent' },
 }
 
 CustomStations = {
@@ -13,6 +14,11 @@ CustomStations = {
         id = 'OB_RADIO_2',
         label = 'J7 Radio 67.7 FM',
         trackList = 'obsongs_radiotrack02',
+    },
+    {
+        id = 'OB_RADIO_3',
+        label = 'Vejent Radio',
+        trackList = 'obsongs_radiotrack03',
     }
 }
 
