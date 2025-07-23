@@ -5,6 +5,7 @@
     <Item>songdirectory\looktowindward</Item>
     <Item>songdirectory\badhabits</Item>
     <Item>songdirectory\everythingismusic</Item>
+    <Item>songdirectory\glue</Item>
   </ContainerPaths>
 
   <Items>
@@ -50,7 +51,7 @@
       <WaveSlotNum value="0"/>
     </Item>
 
-      <Item type="StreamingSound">
+    <Item type="StreamingSound">
       <Name>badhabits_song</Name>
       <Header>
         <Flags value="0x0180C001"/>
@@ -91,7 +92,7 @@
       <WaveSlotNum value="0"/>
     </Item>
 
-          <Item type="StreamingSound">
+    <Item type="StreamingSound">
       <Name>everythingismusic_song</Name>
       <Header>
         <Flags value="0x0180C001"/>
@@ -129,6 +130,47 @@
       </Header>
       <ContainerName>songdirectory/everythingismusic</ContainerName>
       <FileName>everythingismusic_right</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="StreamingSound">
+      <Name>glue_song</Name>
+      <Header>
+        <Flags value="0x0180C001"/>
+        <Flags2 value="0xAA90AAAA"/>
+        <DopplerFactor value="0"/>
+        <Category>hash_45EB536F</Category>
+        <Unk20 value="0"/>
+        <Unk21 value="1"/>
+      </Header>
+      <Duration value="227370"/>
+      <ChildSounds>
+        <Item>glue_left_simple</Item>
+        <Item>glue_right_simple</Item>
+      </ChildSounds>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>glue_left_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="307"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/glue</ContainerName>
+      <FileName>glue_left</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>glue_right_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="53"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/glue</ContainerName>
+      <FileName>glue_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
   </Items>

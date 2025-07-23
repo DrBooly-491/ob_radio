@@ -2,6 +2,7 @@ SongInfo = {
     ['6000'] = { 'Look To Windward', 'Sleep Token' },
     ['6010'] = { 'Bad Habits', 'KUURO' },
     ['6001'] = { 'Everything is Music', 'Venjent' },
+    ['6002'] = { 'Glue(Kanine Remix)', 'Bicep' },
 }
 
 CustomStations = {
@@ -19,6 +20,11 @@ CustomStations = {
         id = 'OB_RADIO_3',
         label = 'Vejent Radio',
         trackList = 'obsongs_radiotrack03',
+    },
+    {
+        id = 'OB_RADIO_4',
+        label = 'DnB Radio',
+        trackList = 'obsongs_radiotrack04',
     }
 }
 
