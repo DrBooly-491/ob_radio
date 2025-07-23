@@ -1,7 +1,7 @@
 -- Register radio stations
 for _, station in ipairs(CustomStations) do
     AddTextEntry(station.id, station.label)
-    ForceRadioTrackListPosition(station.id, station.trackList, GetNetworkTimeAccurate())
+    ForceMusicTrackList(station.id, station.trackList, GetNetworkTimeAccurate())
 end
 
 -- Register song titles and artists
