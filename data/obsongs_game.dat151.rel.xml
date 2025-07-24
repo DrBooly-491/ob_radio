@@ -147,6 +147,35 @@
       </Tracks>
     </Item>
 
+    <!-- Sixth Radio Station Track List -->
+    <Item type="RadioStationTrackList" ntOffset="0">
+      <Name>obsongs_radiotrack06</Name>
+      <Unk00 value="0xAAAAAAA4"/>
+      <TrackType value="2"/>
+      <Unk01 value="0"/>
+      <Unk02 value="0"/>
+      <Unk03 value="1"/> <!-- Number of tracks -->
+      <Unk04 value="0"/>
+      <Unk05 value="0"/>
+      <Unk06 value="0"/>
+      <Unk07 value="0"/>
+      <Unk08 value="0"/>
+      <Unk09 value="0"/>
+      <Unk10 value="0"/>
+      <Unk11 value="0"/>
+      <Unk12 value="0"/>
+      <Unk13 value="0"/>
+      <Unk14 value="0"/>
+      <Unk15 value="0"/>
+      <Unk16 value="0"/>
+      <Tracks>
+        <Item>
+          <Context/>
+          <SoundRef>toxic_song</SoundRef>
+        </Item>
+      </Tracks>
+    </Item>
+
     <!-- First Radio Station Settings -->
     <Item type="RadioStationSettings" ntOffset="0">
       <Name>ob_radio_station</Name>
@@ -179,7 +208,7 @@
     <Item type="RadioStationSettings" ntOffset="0">
       <Name>ob_radio_station_3</Name>
       <Unk00 value="0xAA9009AB"/>
-      <WheelPosition value="30001"/>
+      <WheelPosition value="30002"/>
       <Unk02 value="0"/>
       <MusicGenre value="2"/>
       <RadioName>OB_RADIO_3</RadioName>
@@ -193,7 +222,7 @@
     <Item type="RadioStationSettings" ntOffset="0">
       <Name>ob_radio_station_4</Name>
       <Unk00 value="0xAA9009AB"/>
-      <WheelPosition value="30001"/>
+      <WheelPosition value="30003"/>
       <Unk02 value="0"/>
       <MusicGenre value="2"/>
       <RadioName>OB_RADIO_4</RadioName>
@@ -207,13 +236,27 @@
     <Item type="RadioStationSettings" ntOffset="0">
       <Name>ob_radio_station_5</Name>
       <Unk00 value="0xAA9009AB"/>
-      <WheelPosition value="30001"/>
+      <WheelPosition value="30004"/>
       <Unk02 value="0"/>
       <MusicGenre value="2"/>
       <RadioName>OB_RADIO_5</RadioName>
       <Unk04 value="0"/>
       <TrackList>
         <Item>obsongs_radiotrack05</Item>
+      </TrackList>
+    </Item>
+
+    <!-- Sixth Radio Station Settings -->
+    <Item type="RadioStationSettings" ntOffset="0">
+      <Name>ob_radio_station_6</Name>
+      <Unk00 value="0xAA9009AB"/>
+      <WheelPosition value="30005"/>
+      <Unk02 value="0"/>
+      <MusicGenre value="2"/>
+      <RadioName>OB_RADIO_6</RadioName>
+      <Unk04 value="0"/>
+      <TrackList>
+        <Item>obsongs_radiotrack06</Item>
       </TrackList>
     </Item>
 
@@ -226,6 +269,7 @@
         <Item>ob_radio_station_3</Item>
         <Item>ob_radio_station_4</Item>
         <Item>ob_radio_station_5</Item>
+        <Item>ob_radio_station_6</Item>
       </Stations>
     </Item>
   </Items>

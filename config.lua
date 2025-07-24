@@ -4,6 +4,7 @@ SongInfo = {
     ['6001'] = { 'Everything is Music', 'Venjent' },
     ['6002'] = { 'Glue(Kanine Remix)', 'Bicep' },
     ['6003'] = { 'Happier Than Ever', 'Billie Eilish' },
+    ['6004'] = { 'Pretty Toxic Revolver', 'Machine Gun Kelly' },
 }
 
 CustomStations = {
@@ -32,6 +33,12 @@ CustomStations = {
         id = 'OB_RADIO_5',
         label = '24/7 Billie FM',
         trackList = 'obsongs_radiotrack05',
+    },
+    {
+        
+        id = 'OB_RADIO_6',
+        label = 'MGK Radio',
+        trackList = 'obsongs_radiotrack06',
     }
 }
 
