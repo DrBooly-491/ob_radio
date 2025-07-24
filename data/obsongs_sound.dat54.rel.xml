@@ -6,6 +6,7 @@
     <Item>songdirectory\badhabits</Item>
     <Item>songdirectory\everythingismusic</Item>
     <Item>songdirectory\glue</Item>
+    <Item>songdirectory\happierthenever</Item>
   </ContainerPaths>
 
   <Items>
@@ -171,6 +172,47 @@
       </Header>
       <ContainerName>songdirectory/glue</ContainerName>
       <FileName>glue_right</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="StreamingSound">
+      <Name>happierthenever_song</Name>
+      <Header>
+        <Flags value="0x0180C001"/>
+        <Flags2 value="0xAA90AAAA"/>
+        <DopplerFactor value="0"/>
+        <Category>hash_45EB536F</Category>
+        <Unk20 value="0"/>
+        <Unk21 value="1"/>
+      </Header>
+      <Duration value="315118"/>
+      <ChildSounds>
+        <Item>happierthenever_left_simple</Item>
+        <Item>happierthenever_right_simple</Item>
+      </ChildSounds>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>happierthenever_left_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="307"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/happierthenever</ContainerName>
+      <FileName>happierthenever_left</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>happierthenever_right_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="53"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/happierthenever</ContainerName>
+      <FileName>happierthenever_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
   </Items>

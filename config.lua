@@ -3,6 +3,7 @@ SongInfo = {
     ['6010'] = { 'Bad Habits', 'KUURO' },
     ['6001'] = { 'Everything is Music', 'Venjent' },
     ['6002'] = { 'Glue(Kanine Remix)', 'Bicep' },
+    ['6003'] = { 'Happier Than Ever', 'Billie Eilish' },
 }
 
 CustomStations = {
@@ -25,6 +26,12 @@ CustomStations = {
         id = 'OB_RADIO_4',
         label = 'DnB Radio',
         trackList = 'obsongs_radiotrack04',
+    },
+    {
+        
+        id = 'OB_RADIO_5',
+        label = '24/7 Billie FM',
+        trackList = 'obsongs_radiotrack05',
     }
 }
 
