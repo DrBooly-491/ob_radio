@@ -8,6 +8,7 @@
     <Item>songdirectory\glue</Item>
     <Item>songdirectory\happierthenever</Item>
     <Item>songdirectory\toxic</Item>
+    <Item>songdirectory\f1</Item>
   </ContainerPaths>
 
   <Items>
@@ -255,6 +256,47 @@
       </Header>
       <ContainerName>songdirectory/toxic</ContainerName>
       <FileName>toxic_right</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="StreamingSound">
+      <Name>f1_song</Name>
+      <Header>
+        <Flags value="0x0180C001"/>
+        <Flags2 value="0xAA90AAAA"/>
+        <DopplerFactor value="0"/>
+        <Category>hash_45EB536F</Category>
+        <Unk20 value="0"/>
+        <Unk21 value="1"/>
+      </Header>
+      <Duration value="207125"/>
+      <ChildSounds>
+        <Item>f1_left_simple</Item>
+        <Item>f1_right_simple</Item>
+      </ChildSounds>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>f1_left_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="307"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/f1</ContainerName>
+      <FileName>f1_left</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>f1_right_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="53"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/f1</ContainerName>
+      <FileName>f1_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
   </Items>

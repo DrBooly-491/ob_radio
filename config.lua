@@ -5,6 +5,7 @@ SongInfo = {
     ['6002'] = { 'Glue(Kanine Remix)', 'Bicep' },
     ['6003'] = { 'Happier Than Ever', 'Billie Eilish' },
     ['6004'] = { 'Pretty Toxic Revolver', 'Machine Gun Kelly' },
+    ['6005'] = { 'Formula 1 Theme Live', 'Brian Tyler' },
 }
 
 CustomStations = {
@@ -39,6 +40,12 @@ CustomStations = {
         id = 'OB_RADIO_6',
         label = 'MGK Radio',
         trackList = 'obsongs_radiotrack06',
+    },
+    {
+        
+        id = 'OB_RADIO_7',
+        label = 'F1 FM',
+        trackList = 'obsongs_radiotrack07',
     }
 }
 
