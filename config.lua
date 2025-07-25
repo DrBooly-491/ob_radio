@@ -5,6 +5,7 @@ SongInfo = {
     ['6003'] = { 'Happier Than Ever', 'Billie Eilish' },
     ['6004'] = { 'Pretty Toxic Revolver', 'Machine Gun Kelly' },
     ['6005'] = { 'Formula 1 Theme Live', 'Brian Tyler' },
+    ['6006'] = { 'The Contract', 'Twenty One Pilots' },
     ['6009'] = { 'Provider', 'Sleep Token' },
     ['6010'] = { 'Bad Habits', 'KUURO' },
 }
@@ -47,6 +48,12 @@ CustomStations = {
         id = 'OB_RADIO_7',
         label = 'F1 FM',
         trackList = 'obsongs_radiotrack07',
+    },
+    {
+        
+        id = 'OB_RADIO_8',
+        label = '24/7 Twenty One Pilots',
+        trackList = 'obsongs_radiotrack08',
     }
 }
 

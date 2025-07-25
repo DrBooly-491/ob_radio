@@ -10,6 +10,7 @@
     <Item>songdirectory\happierthenever</Item>
     <Item>songdirectory\toxic</Item>
     <Item>songdirectory\f1</Item>
+    <Item>songdirectory\contract</Item>
   </ContainerPaths>
 
   <Items>
@@ -339,6 +340,47 @@
       </Header>
       <ContainerName>songdirectory/f1</ContainerName>
       <FileName>f1_right</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="StreamingSound">
+      <Name>contract_song</Name>
+      <Header>
+        <Flags value="0x0180C001"/>
+        <Flags2 value="0xAA90AAAA"/>
+        <DopplerFactor value="0"/>
+        <Category>hash_45EB536F</Category>
+        <Unk20 value="0"/>
+        <Unk21 value="1"/>
+      </Header>
+      <Duration value="264522"/>
+      <ChildSounds>
+        <Item>contract_left_simple</Item>
+        <Item>contract_right_simple</Item>
+      </ChildSounds>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>contract_left_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="307"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/contract</ContainerName>
+      <FileName>contract_left</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>contract_right_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="53"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/contract</ContainerName>
+      <FileName>contract_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
   </Items>
