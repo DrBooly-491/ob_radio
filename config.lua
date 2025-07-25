@@ -1,11 +1,12 @@
 SongInfo = {
     ['6000'] = { 'Look To Windward', 'Sleep Token' },
-    ['6010'] = { 'Bad Habits', 'KUURO' },
     ['6001'] = { 'Everything is Music', 'Venjent' },
     ['6002'] = { 'Glue(Kanine Remix)', 'Bicep' },
     ['6003'] = { 'Happier Than Ever', 'Billie Eilish' },
     ['6004'] = { 'Pretty Toxic Revolver', 'Machine Gun Kelly' },
     ['6005'] = { 'Formula 1 Theme Live', 'Brian Tyler' },
+    ['6009'] = { 'Provider', 'Sleep Token' },
+    ['6010'] = { 'Bad Habits', 'KUURO' },
 }
 
 CustomStations = {

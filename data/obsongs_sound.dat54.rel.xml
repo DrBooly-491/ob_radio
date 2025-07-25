@@ -3,6 +3,7 @@
   <Version value="6353780"/>
   <ContainerPaths>
     <Item>songdirectory\looktowindward</Item>
+    <Item>songdirectory\provider</Item>
     <Item>songdirectory\badhabits</Item>
     <Item>songdirectory\everythingismusic</Item>
     <Item>songdirectory\glue</Item>
@@ -51,6 +52,47 @@
       </Header>
       <ContainerName>songdirectory/looktowindward</ContainerName>
       <FileName>looktowindward_right</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="StreamingSound">
+      <Name>provider_song</Name>
+      <Header>
+        <Flags value="0x0180C001"/>
+        <Flags2 value="0xAA90AAAA"/>
+        <DopplerFactor value="0"/>
+        <Category>hash_45EB536F</Category>
+        <Unk20 value="0"/>
+        <Unk21 value="1"/>
+      </Header>
+      <Duration value="366295"/>
+      <ChildSounds>
+        <Item>provider_left_simple</Item>
+        <Item>provider_right_simple</Item>
+      </ChildSounds>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>provider_left_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="307"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/provider</ContainerName>
+      <FileName>provider_left</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>provider_right_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="53"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/provider</ContainerName>
+      <FileName>provider_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
 
