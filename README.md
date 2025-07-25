@@ -15,7 +15,7 @@ A script that gives you the ability to add your own radio stations with customs 
 
 ### Step 1: 
 
-Drag ox_radio from your downloads into your [standalone] folder make sure to remove the _main so the resource is ob_radio and not ob_radio_main
+Drag ob_radio from your downloads into your [standalone] folder make sure to remove the _main so the resource is ob_radio and not ob_radio_main
 
 ### Step 2:
 
